@@ -211,6 +211,10 @@ section a {
     margin-bottom: 20px;
 }
 
+.box-a {
+    padding: 20px;
+}
+
 .box-inner {
     max-width: 700px;
     margin: 0 auto;
@@ -290,6 +294,22 @@ section a {
     .navbar .navbar-nav-left,
     .navbar .navbar-nav-right {
         display: none;
+    }
+
+    .box {
+        margin-bottom: 10px;
+    }
+
+    .box-f.grid-col-2 {
+        gap: 0.6rem;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .text-xl {
+        letter-spacing: 3px;
     }
 }
 
